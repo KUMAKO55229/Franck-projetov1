@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de cliente </title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <script src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
+
+    <script src="https://rawgit.com/RobinHerbots/Inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+
+    <!-- icon´s library-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro de cliente</h1>
+        <form>
+
+            <div class="fieldset">
+                <div class="input-group">
+                    <label for="fieldName">Mome</label>
+                    <input class="form-control" type="text" id="fieldName" placeholder="informe seu nome" required>
+
+                </div>
+
+                <div class="input-group">
+                    <label for="fieldName">Sobrenome</label>
+                    <input class="form-control" type="text" id="fieldSobrenome" placeholder="informe seu Sobrenome" required>
+
+                </div>
+
+
+                <div class="input-group">
+                    <label for="fieldName">Data</label>
+                    <input class="form-control" type="date" id="fieldSobrenome" placeholder="informe a data" required>
+
+                </div>
+
+                <div class="input-group">
+                    <label for="fieldName">telefone</label>
+                    <input class="form-control" type="telefone" id="fieldSobrenome" placeholder="informe seu telefone" required>
+
+                </div>
+              
+
+                <div class="input-group">
+                    <label for="fieldName">Email</label>
+                    <input class="form-control" type="email" id="fieldSobrenome" placeholder="*****@**********" required>
+
+
+                </div>
+
+                <div class="input-group">
+                    <label for="fieldName"> Confirmar email</label>
+                    <input class="form-control" type="email" id="fieldSobrenome" placeholder="*****@**********" required>
+
+
+                </div>
+
+                <div class="input-group">
+                    <label for="fieldName">Rua </label>
+                    <input class="form-control" type="text" id="fieldSobrenome" placeholder="Rua" required>
+
+                </div>
+                <div class="input-group">
+                    <label for="fieldName">Numero </label>
+                    <input class="form-control" type="number" id="fieldSobrenome" placeholder="Numero" required>
+
+                </div>
+                <div class="input-group">
+                    <label for="fieldName">Bairro </label>
+                    <div >
+                        <select class="custom-select" id="inputGroupSelect02">
+                            <option selected>Trindade</option>
+                            <option value="1">Pantanal</option>
+                            <option value="2">Itacurubi</option>
+                            <option value="3">centro</option>
+                        </select>
+
+                    </div>
+
+
+
+                </div>
+                <div class="input-group">
+                    <label for="fieldName">Cidade </label>
+                    <div >
+                        <select class="custom-select" id="inputGroupSelect02">
+                            <option selected>Floripa</option>
+                            <option value="1">Criciuma</option>
+                            <option value="2">Ararangua</option>
+                            <option value="3">Blumenau</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="input-group">
+                    <label for="fieldName">UF </label>
+                    <div >
+                        <select class="custom-select" id="inputGroupSelect02" required>
+                            <option value="">Selecione uma opção</option>
+                            <option value="0">SC</option>
+                            <option value="1">RS</option>
+                            <option value="2">AM</option>
+                            <option value="3">RJ</option>
+                        </select>
+                        <div class="input-group-append">
+                            <label class="input-group-text" for="inputGroupSelect02">Options</label>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="input-group">
+                    <label for="fieldName"> CPF </label>
+                    <input class="form-control" type="number" id="fieldSobrenome" placeholder="Numero">
+
+                </div>
+
+
+
+                <div class="input-group">
+                    <label for="fieldName">RG</label>
+                    <input class="form-control" type="text" id="fieldSobrenome" placeholder="informe seu Sobrenome" required>
+
+                </div>
+                <div class="radios">
+                        <label for="Sexo"> Sexo</label>
+    
+                        <div>
+                            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" required>
+                            <label class="custom-control-label" for="customRadio1">Masculino</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input" required>
+                            <label class="custom-control-label" for="customRadio2">Feminino</label>
+                        </div>
+    
+    
+    
+                    </div>
+
+            </div>
+
+            <div >
+                <button type="submit" class="btn btn-primary ">Enviar</button>
+                <button type="reset" class="btn btn-primary ">Limpar</button>
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

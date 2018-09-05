@@ -1,0 +1,24 @@
+{
+  "name": "teste1franck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path sass sass/main.scss dist/css/main.css",
+    "start": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KUMAKO55229/Franck-projetov1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KUMAKO55229/Franck-projetov1/issues"
+  },
+  "homepage": "https://github.com/KUMAKO55229/Franck-projetov1#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4"
+  }
+}
